@@ -16,7 +16,10 @@
  */
 
 export const discriminator = (name) => {
-  // Your code here
-  // am rezolvat problema asdas
-  return name;
+  if(name==="Alice" || name==="Bob"){
+          return(`Hello, ${name}!`);
+  } else return("Hello!");
+  
 };
+
+console.log(discriminator());
