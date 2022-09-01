@@ -1,6 +1,6 @@
 /**
  * This function should take a string
- * and return a greeting in the form of:
+ * and return a string in the form of:
  *
  * "Hello, {name}!";
  *
@@ -11,6 +11,6 @@
  */
 
 export const greetings = (name) => {
-  // Your code here
-  return name;
+    return (`Hello, ${name}!`);
 };
+console.log(greetings());

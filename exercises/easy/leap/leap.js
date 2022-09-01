@@ -1,11 +1,17 @@
 /**
  * Return a list of the next `n` leap years.
- *
- * Example:
- * n = 2 -> [2024, 2028]
+ * For `n` being 2, the function should return
+ * [2024, 2028]
  */
 
+const leapYears=[2024];
 export const leap = (n) => {
-  // Your code here
-  return [];
+  for (let i=1; i<n; i++){
+
+   leapYears.push(leapYears[i-1]+4);
+  }
+  return(leapYears);
+  
 };
+
+console.log(leap(3));
