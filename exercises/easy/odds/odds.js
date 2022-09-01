@@ -6,5 +6,6 @@
  */
 
 export const odds = (arr) => {
+  // am mai modificat ceva
   return [];
 };

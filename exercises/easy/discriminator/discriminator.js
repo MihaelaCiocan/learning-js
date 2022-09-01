@@ -17,6 +17,6 @@
 
 export const discriminator = (name) => {
   // Your code here
-  // am rezolvat problema
+  // am rezolvat problema asdas
   return name;
 };
