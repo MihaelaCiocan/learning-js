@@ -8,5 +8,9 @@
  */
 
 export const americanDistance = (miles) => {
-    return NaN;
+   
+    return miles * 1609344;
+
 }
+
+console.log(americanDistance(1.6));

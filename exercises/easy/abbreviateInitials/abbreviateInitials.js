@@ -6,5 +6,8 @@
 // "Marry Patrick Davis" -> "M. D."
 
 export default function abbreviate(name) {
-  return name;
+  const names = name.split(' ');
+ 
+  return `${names[0].charAt(0)}. ${names[names.length-1].charAt(0)}.`;
 }
+console.log(abbreviate('Don Christoper Josh Aaron'));
