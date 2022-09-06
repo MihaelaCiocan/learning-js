@@ -6,5 +6,13 @@
  */
 
 export const filter = (arr, fn) => {
-    return arr;
+    const b= [];
+    for(let i=0; i<arr.length; i++){
+        if (fn(arr[i])) { 
+            b.push(arr[i])
+            }
+    }
+    return b;
 }
+
+

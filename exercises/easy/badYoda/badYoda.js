@@ -7,5 +7,13 @@
  */
 
 export const badYoda = (string) => {
-    return string;
+    const words =string.split(' ');
+    const reverswords= [];
+ for (let i=words.length-1; i>=0; i--)
+ {
+     reverswords.push(words[i]);
+}
+    return reverswords.join(' ');
 };
+
+console.log(badYoda("May the force be with you"));

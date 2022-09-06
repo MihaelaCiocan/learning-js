@@ -7,5 +7,12 @@
 // exponent(3,2) -> 9 (3^2)
 
 export default function exponent(m, n) {
-  return 42;
+  let nr=1;
+  for(let i=0; i<n; i++){
+     nr=nr*m;
+     
+  }
+  return nr;
 }
+
+console.log(exponent(2,3));

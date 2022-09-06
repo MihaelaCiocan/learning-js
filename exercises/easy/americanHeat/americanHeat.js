@@ -10,5 +10,7 @@
  * 0 => -17.7777778
  */
 export const americanHeat = (F) => {
-    return NaN;
+    return (F-32)* (5/9);
 }
+
+console.log(americanHeat(100));

@@ -21,5 +21,13 @@
  */
 
 export const mymap = (arr, fn) => {
-    return [];
+    const b = [];
+    for (leti=0; i<arr.length; i++){
+       b.push(fn(arr[i]));
+    }
+    return b;
 }
+
+console.log(mymap([1,2,3],(elemb)=>{
+    return elemb*2;
+}));

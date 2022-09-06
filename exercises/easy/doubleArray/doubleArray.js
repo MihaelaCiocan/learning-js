@@ -4,5 +4,8 @@
 // [1,2,3] -> [2,4,6]
 
 export function doubleArray(a) {
-  return [];
+ 
+  return a.map(x=> x*2);
 }
+
+console.log(doubleArray([3,4,12]));

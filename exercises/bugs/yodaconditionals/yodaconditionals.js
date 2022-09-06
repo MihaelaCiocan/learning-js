@@ -12,3 +12,5 @@ export const isEven = (n) => {
 
     return false;
 }
+
+ console.log(isEven(8));

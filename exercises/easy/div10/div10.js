@@ -10,5 +10,8 @@
  */
 
 export const div10 = (N) => {
-    return false;
+ 
+    return N % 10 === 0
 }
+
+console.log(div10(20));
